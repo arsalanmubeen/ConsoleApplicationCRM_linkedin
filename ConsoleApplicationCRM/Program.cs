@@ -19,46 +19,25 @@ namespace ConsoleApplicationCRM
             string _serviceUri = GetAppVAR.GetKeyValue("ServerAddress");
 
 
-            string[] tablesToPro = new string[] {//"",
-                //"phonecalls",
-                //"tasks",
-                //"appointments",
-                //"emails" ,
-                //"processstages",
-                //"workflows",
-                //"contacts",
-                //"activityparties",
-                //"campaigns",
-                //"seda_studysectorses",
-                //"seda_assessmentdetails",
-                //"leads",
-                //"accounts",
-                //"incidents",
-                //"seda_barriertypes",
-                //"seda_potentialbuyeropportunityimports",
-                //"seda_potentialbuyercontacts",
-                //"seda_potentialbuyeropportunitycustomers",
-                //"seda_productbuyerses",
-                //"seda_casebarrierstakeholders",
-                //"seda_hsserieses",
-                //"seda_customerproducts",
-                //"businessunits",
-                //"seda_cities",
-                //"seda_countries",
-                //"seda_regions",
-                //"seda_sectors",
-                //"seda_isicdivisions",
-                //"seda_isicsections",
-                //"seda_casecategories",
-                //"seda_casesubcategories",
-                //"systemusers",
-                //"seda_casestakeholderses"
-                //,"seda_potentialbuyeropportunities"
-                //,"slakpiinstances"
-                //,"seda_customersectors"
-                //,"incidentresolutions"
-               //, "EntityDefinitions"
-               "activitypointers"
+            string[] tablesToPro = new string[] {
+                "phonecalls",
+                "tasks",
+                "appointments",
+                "emails" ,
+                "processstages",
+                "workflows",
+                "contacts",
+                "activityparties",
+                "campaigns",
+                "leads",
+                "accounts",
+                "incidents",
+                "businessunits",
+                "systemusers",
+                "slakpiinstances",
+                "incidentresolutions",
+                "EntityDefinitions",
+                "activitypointers",
             };
 
             string ConnString=GetAppVAR.GetKeyValue("ServerStgConnString");
